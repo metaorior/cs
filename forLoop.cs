@@ -10,6 +10,19 @@ namespace forLoop {
             for (var i = 0; i < numbers.Length; i++) {
                 Console.WriteLine(numbers[i]);
             }
+
+            // Sort() functions sorts the array in alphabetic order
+            string[] nomes = {"joao", "caio", "banana", "antonio"};
+
+            for (var i = 0; i < nomes.Length; i++) {
+            Array.Sort(nomes);
+
+            Console.WriteLine(nomes[i]);
+            }
         }
+
+
+
+
     }
 }
