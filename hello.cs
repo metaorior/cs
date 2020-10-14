@@ -1,11 +1,9 @@
 
 using System;
  
-class Program
-{
-    static void Main(string[] args)
-    {
-    	Console.WriteLine("hello world");
-    	Console.ReadKey();
+class Aula03{
+    static void Main(){        
+        Console.WriteLine("ola sarah");
+        Console.Read();
     }
 }
