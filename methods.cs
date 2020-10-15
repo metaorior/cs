@@ -4,7 +4,7 @@ class Program {
     static void Main() {
         Console.WriteLine("Ola Peach");
 
-        void BoasVindas();
+        BoasVindas();
 
     }
 
