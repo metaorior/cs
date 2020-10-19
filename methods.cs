@@ -4,28 +4,27 @@ class Program {
     static void Main() {
         Console.WriteLine("Ola Peach");
 
-        BoasVindas();
-
+    BoasVindas();
     }
 
     static void BoasVindas() {
     //introduz
-    Console.WriteLine("Digite 2 numeros");
-    //declara as variaveis vazias
-    int a = 0;
+    int a = 0; 
     int b = 0;
 
-    // le a input como um scanf e armazena
-    Console.Read(&a,&b);
+    Console.WriteLine("Digite o primeiro numero"); 
 
+    a = Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine("Digite o segundo numero"); 
+    b = Convert.ToInt32(Console.ReadLine());
     chamaSoma(a,b);
 
 
     }
 
-    int chamaSoma(int a, int b) {
+    static void chamaSoma(int a, int b) {
         Soma(a,b);
-        Console.WriteLine("A soma que veio da função Soma eh:" + resultado);
+        Console.WriteLine("A soma que veio da função Soma eh: " + Soma(a,b));
     }
 
     static int Soma( int x , int y) {
@@ -36,10 +35,3 @@ class Program {
 
    
 }
-
-
-
-
-// method is a block of code which only runs when its called
-//methods are c# functions
-
